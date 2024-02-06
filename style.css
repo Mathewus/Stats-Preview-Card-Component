@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #0A0C1B;
+}
+
+#principal {
+
+    padding: 0 25px;
+}
+
+
+#card {
+    margin: 120px auto;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+#card #info {
+
+    background-color: #1C1938;
+    max-width: 400px;
+    max-height: 320px;
+    padding: 50px;
+    border-radius: 5px 0px 0px 5px;
+    
+}
+
+#card #info h2 {
+
+    color: #fff;
+    font-size: 1.7em;
+    margin-bottom: 20px;
+}
+
+#card #info h2 span{
+
+   color: #A45FD8;
+    
+}
+
+#card #info p {
+
+    color: #B4B2CB;
+    margin-bottom: 60px;
+    font-size: 0.71em;
+    line-height: 1.8em;
+    padding-right: 30px;
+}
+
+#card #design {
+
+    max-width: 400px;
+    max-height: 320px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0px 5px 5px 0px;
+}
+
+#card img {
+
+    width: 100%;
+    height: 100%;
+
+}
+
+#card #sub-info {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    gap: 30px;
+    color: #fff;
+}
+
+#card .sub-info-dados h3{
+
+    letter-spacing: 1px;
+
+}
+
+#card .sub-info-dados span{
+    color: #9c9ba0;
+    font-size: 0.54em;
+    letter-spacing: 1.8px;
+
+}
+
+#fundo {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #6403a191;
+
+}
+
+
+@media(max-width: 850px) {
+
+    #card {
+        flex-direction: column-reverse;
+        align-items: center;
+
+    }
+
+    #card #info {
+
+        margin-top: -5px;
+        max-height: 100%;
+        text-align: center;
+        flex-direction: column;
+        border-radius: 0px 0px 5px 5px;
+
+    }
+
+    #card #info p {
+
+        padding-right: 0px;
+    }
+
+    #card #design {
+    
+        max-width: 400px;
+        max-height: 320px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 5px 5px 0px 0px;
+    }
+    
+    #card #sub-info {
+        justify-content: center;
+    }
+
+    #card .sub-info-dados {
+        text-align: center;
+    
+    }
+
+}
+
+
+@media(max-width: 400px) {
+
+    #card #sub-info {
+        flex-direction: column;
+    }
+
+}
