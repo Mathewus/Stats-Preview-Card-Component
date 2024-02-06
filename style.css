@@ -1,8 +1,9 @@
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Lexend Deca";
 }
 
 body {
@@ -27,7 +28,7 @@ body {
 
     background-color: #1C1938;
     max-width: 400px;
-    max-height: 320px;
+    max-height: 340px;
     padding: 50px;
     border-radius: 5px 0px 0px 5px;
     
@@ -58,7 +59,7 @@ body {
 #card #design {
 
     max-width: 400px;
-    max-height: 320px;
+    max-height: 340px;
     position: relative;
     overflow: hidden;
     border-radius: 0px 5px 5px 0px;
